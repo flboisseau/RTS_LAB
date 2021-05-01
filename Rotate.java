@@ -21,7 +21,7 @@ public class Rotate {
 			System.out.println("You must supply an integer for the parameter");
 		}
 		
-		if (args.length >= 1) {
+		if (args.length > 1) {
 			str = args[1];
 			
 			if (pos <= str.length()) {
